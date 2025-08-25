@@ -1,1 +1,1 @@
-Foundation Project created using HTML, CSS, Tailwind, and React
+Foundation Project created using HTML and CSS.
