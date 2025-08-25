@@ -10,7 +10,7 @@ body {
     background-color: #fff;
     background-image: url("./images/pageBackground.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .container {
@@ -63,7 +63,7 @@ body {
 
 .navbar a:link,
 .navbar a:visited {
-    color: #8b8690;
+    color: #534f56;
 }
 
 .navbar a:hover,
@@ -79,28 +79,112 @@ body {
     margin-top: 0.4rem;
 }
 
+.bibs-mini-link {
+    margin-right: 2rem;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 85%;
+}
+
+.bibs-mini {
+    border: #fff solid 4px;
+    border-radius: 10px;
+    height: 100%;
+}
+
 .page-heading {
     color: #fff;
     text-shadow: 3px 3px 3px #000;
     text-align: center;
     font-family: "Inter";
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     margin-top: 3rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .ross-image {
     display: block;
+    width: 20rem;
     margin: auto;
-    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+.image-div {
+    text-align: center;
+}
+
+.bibs-image {
+    width: 40rem;
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 2rem;
+}
+
+.invest-header {
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+    font-family: "Inter";
+    font-size: 2.5rem;
+    font-weight: 700;
     margin-bottom: 1rem;
+}
+
+.invest-list {
+    text-align: center;
+    list-style: none;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+    font-family: "Inter";
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.invest-list a:link,
+.invest-list a:visited {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.invest-list a:hover,
+.invest-list a:active {
+    color: rgb(211, 27, 27);
+    cursor: pointer;
 }
 
 .box {
     display: grid;
     grid-template-columns: 3;
-    grid-template-rows: 3;
+    grid-template-rows: 2;
+    margin-bottom: 5rem;
+}
+
+.uni-name {
+    /* text-align: center; */
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+    font-family: "Inter";
+    font-size: 1rem;
+    font-weight: 700;
+    /* margin-bottom: 1rem; */
+}
+
+.uni-text {
+    /* text-align: center; */
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+    font-family: "Inter";
+    font-size: 1rem;
+    font-weight: 700;
+    /* margin-bottom: 1rem; */
 }
 
 .grid-image {
@@ -110,31 +194,33 @@ body {
 
 .desc {
     color: white;
+    background-color: #26232325;
     text-shadow: 2px 2px 2px #000;
     font-family: "Lexend Deca";
     text-align: center;
     font-size: 18px;
     font-weight: 500;
+    border-radius: 10px;
+    margin-bottom: 2rem;
 }
 
-.faq-list {
-    font-family: "Lexend Deca";
-    font-size: 18px;
+.spa-logo {
+    width: 40rem;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 2rem;
 }
 
-.faq-list li {
-    background-color: #e7e9e9;
-}
-
-.faq-answer {
-    margin-top: 1rem;
-    font-size: 18px;
-}
-
-.caltech-link {
-    display: block;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
     text-align: center;
-    margin-top: 3rem;
 }
 
 /* Style inputs with type="text", select elements and textareas */
