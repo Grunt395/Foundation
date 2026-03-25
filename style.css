@@ -28,7 +28,8 @@ body {
 }
 
 .main-title {
-    /* display: block; */
+    display: flex;
+    align-items: center;
     font-size: 2rem;
     font-family: "Inter";
     font-weight: 700;
@@ -37,8 +38,12 @@ body {
     text-shadow: 1px 1px 1px #000;
     overflow: hidden;
     white-space: nowrap;
-    margin-top: 0.5rem;
     margin-left: 0.5rem;
+}
+
+.bsf-logo {
+    width: 3.5rem;
+    margin-right: 0.5rem;
 }
 
 .navbar {
@@ -106,10 +111,11 @@ body {
 
 .ross-image {
     display: block;
-    width: 20rem;
+    width: 13rem;
     margin: auto;
     border-radius: 20px;
     margin-bottom: 2rem;
+    background-color: rgba(36, 36, 36, 0.076);
 }
 
 .image-div {
@@ -126,7 +132,7 @@ body {
     margin-bottom: 2rem;
 }
 
-.invest-header {
+/* .invest-header {
     text-align: center;
     color: #fff;
     text-shadow: 3px 3px 3px #000;
@@ -134,9 +140,9 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
-}
+} */
 
-.invest-list {
+/* .invest-list {
     text-align: center;
     list-style: none;
     color: #fff;
@@ -145,9 +151,9 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 2rem;
-}
+} */
 
-.invest-list a:link,
+/* .invest-list a:link,
 .invest-list a:visited {
     color: #fff;
     text-decoration: none;
@@ -158,13 +164,51 @@ body {
 .invest-list a:active {
     color: rgb(211, 27, 27);
     cursor: pointer;
-}
+} */
 
 .box {
     display: grid;
     grid-template-columns: 3;
     grid-template-rows: 2;
     margin-bottom: 5rem;
+}
+
+.odd-info {
+    display: flex;
+    color: #fff;
+    font-family: "Lexend Deca";
+}
+
+.even-info {
+    display: flex;
+    color: #fff;
+    font-family: "Lexend Deca";
+}
+
+.uni-logo {
+    width: 30%;
+    background-color: #e7e9e9;
+    border-radius: 20px;
+}
+
+.invest-desc {
+    background-color: #26232325;
+    text-shadow: 2px 2px 2px #000;
+    /* text-align: center; */
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.invest-header {
+    /* background-color: #26232325; */
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    border-radius: 10px;
+    /* margin-bottom: 2rem; */
 }
 
 .uni-name {
@@ -214,14 +258,6 @@ body {
     margin-bottom: 2rem;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #fff;
-    text-align: center;
-}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text],
@@ -273,4 +309,34 @@ input[type=submit]:hover {
     width: 50%;
     margin: auto;
     margin-top: 4rem;
+}
+
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: end;
+    bottom: 0;
+    width: 100%;
+    color: #534f56;
+    background-color: #e7e9e9;
+    font-family: "Lexend Deca";
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-top: 2px solid #000;
+}
+
+.footer-item {
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.footer a:link,
+.footer a:visited {
+    color: #534f56;
+}
+
+.footer a:hover,
+.footer a:active {
+    color: #e10126;
+    cursor: pointer;
 }
